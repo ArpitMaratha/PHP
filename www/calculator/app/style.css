@@ -1,5 +1,9 @@
-.inputField 
+.inputField
 {
-    width: 150px; 
+    width: 150px;
     display: inline;
+}
+.form-center {
+  display:flex;
+  justify-content: center;
 }

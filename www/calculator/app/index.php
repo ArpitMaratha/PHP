@@ -13,15 +13,17 @@
 
 			<?php require_once "./calcController.php";?>
 
-		    <form method="post">
-		        <input name="number1" type="text" class="form-control inputField" />
+				<h1><p><center>Calculator</center></p></h1>
+
+		    <form class="text-center" method="post">
+		        <input placeholder="Enter number 1" name="number1" type="text" class="form-control inputField" />
 		        <select name="operation">
 		        	<option value="plus">Plus</option>
 		            <option value="minus">Minus</option>
 		            <option value="times">Multiply</option>
 		            <option value="divided by">Divided By</option>
 		        </select>
-		        <input name="number2" type="text" class="form-control inputField" />
+		        <input placeholder="Enter number 2" name="number2" type="text" class="form-control inputField" />
 		        <input name="submit" type="submit" value="Calculate" class="btn btn-primary" />
 		    </form>
 		</div>
