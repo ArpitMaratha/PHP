@@ -79,24 +79,26 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 </div>
 
 <form method="post">
+  <table>
  <div>
   <label>Article Title</label>
-  <input type="text" name="title" placeholder="Article Title" value="<?= $title ?>">
+  <input type="text" id="txt" name="title" placeholder="Article Title" value="<?= $title ?>">
  </div>
 
  <div>
    <label>Article Content</label>
-   <textarea name="content" placeholder="Article Content"><?= $content ?></textarea>
+   <textarea name="content" id="cnt" placeholder="Article Content"><?= $content ?></textarea>
  </div>
 
  <div>
    <label>Published At</label>
-   <input type="datetime-local" name="published_at">
+   <input type="datetime-local" id="date" name="published_at">
  </div>
 
   <div>
     <button>Send</button>
   </div>
+</table>
 </form>
 
 <?php require 'includes/footer.php'; ?>

@@ -3,7 +3,7 @@
 <head>
   <title>My First Blog</title>
   <meta charset="utf-8">
-</head>
+<link rel='stylesheet' type='text/css' href='css/style.php' /></head>
 
 <body>
   <header>
