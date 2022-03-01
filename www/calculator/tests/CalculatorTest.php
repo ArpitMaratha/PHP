@@ -11,23 +11,23 @@ class CalculatorTest extends \PHPUnit\Framework\TestCase {
 
   public function testSubtract() {
     $calculator = new App\Calculator;
-    $result = $calculator->subtract(20,5);
+    $result = $calculator->subtract(75,35);
 
-    $this->assertEquals(15, $result);
+    $this->assertEquals(40, $result);
   }
 
   public function testMultiply() {
     $calculator = new App\Calculator;
-    $result = $calculator->multiply(20,5);
+    $result = $calculator->multiply(10.5,5);
 
-    $this->assertEquals(100, $result);
+    $this->assertEquals(52.5, $result);
   }
 
   public function testDivide() {
     $calculator = new App\Calculator;
-    $result = $calculator->divide(20,5);
+    $result = $calculator->divide(67,5);
 
-    $this->assertEquals(4, $result);
+    $this->assertEquals(13.4, $result);
   }
 }
 

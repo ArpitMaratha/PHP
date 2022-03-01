@@ -51,13 +51,29 @@
 //
 // console.log(lapsCompleted);
 
+// let username = "Arpit"
+//
+// let message = "You have a new notification"
+//
+// let messageToUser = username + ", " + message + "!"
+//
+// console.log(messageToUser)
+
+// let name = "Arpit Maratha"
+//
+// let message = "Hi, my name is"
+//
+// let myGreeting = message + " " + name
+//
+// console.log(myGreeting)
+
 welcomeEL = document.getElementById('welcome-el')
 
 let name = "Arpit"
 let greeting = "Welcome back, "
 
-welcomeEL.innerText = greeting + name
-welcomeEL.innerText += " " + "👋"
+welcomeEL.textContent = greeting + name
+welcomeEL.textContent += " " + "👋"
 
 let countEL = document.getElementById("count-el")
 
@@ -77,19 +93,3 @@ function save() {
   count = 0
   countEL.textContent = count
 }
-
-// let username = "Arpit"
-//
-// let message = "You have a new notification"
-//
-// let messageToUser = username + ", " + message + "!"
-//
-// console.log(messageToUser)
-
-// let name = "Arpit Maratha"
-//
-// let message = "Hi, my name is"
-//
-// let myGreeting = message + " " + name
-//
-// console.log(myGreeting)

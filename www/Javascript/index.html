@@ -3,15 +3,35 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"></script>
     <title></title>
+    <style media="screen">
+
+    .main {
+
+    }
+    .text-center {
+      font-weight: 1000;
+      font-size: 25px;
+      padding-top: 250px;
+      padding-left: 350px;
+      padding-right: 350px;
+      border: none;
+      background-color: inherit;
+      background-image: url("/images/subway.jpg");
+    }
+    </style>
   </head>
-  <body>
+  <body class="text-center">
+    <div>
     <p id="welcome-el"></p>
     <h1>People Entered</h1>
     <h2 id="count-el">0</h2>
     <button id="increment-btn" onclick="increment()">INCREMENT</button>
     <button id="save-btn" onclick="save()">SAVE</button>
-    <p id="save-el">People Entered:</p>
+    <p id="save-el">People Entered :</p>
+  </div>
     <script src="index.js"></script>
   </body>
+</div>
 </html>

@@ -1,9 +1,15 @@
+
+
 .inputField
 {
     width: 150px;
     display: inline;
+
 }
-.form-center {
+.text-center {
   display:flex;
   justify-content: center;
+  border:black;
+  border-width:10px;
+  border-style:outset;
 }

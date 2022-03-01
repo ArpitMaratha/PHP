@@ -18,12 +18,12 @@ if (isset($_POST['submit'])) {
             $total = $calculator->divide($_POST['number1'], $_POST['number2']);
         }
 
-        
-        echo "<h1>{$_POST['number1']} {$_POST['operation']} {$_POST['number2']} equals {$total}</h1>";
+
+        echo "<h5><p><center>{$_POST['number1']} {$_POST['operation']} {$_POST['number2']} equals {$total}</center></p></h5>";
 
     } else {
 
 
-        echo 'Numeric values are required';
+        echo '<h5><p><center>Numeric values are required</center></p></h5>';
     }
 }
