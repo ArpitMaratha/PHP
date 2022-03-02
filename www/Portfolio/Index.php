@@ -12,6 +12,12 @@
 
 
     <div class="main">
+
+      <div class="hamburger">
+        <img class="ham" src="/images/hamburger_icon.png" alt="" width="25">
+        <img class="cross" src="/images/cross.png" alt="" width="28">
+      </div>
+
       <div class="info-container">
         <div class="dev-info">
           <div class="hello">
@@ -25,18 +31,18 @@
           </div>
           <div class="about-me">
             Grounded and solution-oriented computer
-            science student with keen learning. Adept at
+            science student with keen learning.<br> Adept at
             motivating self and others. Passionate about
             technology.
           </div>
           <div class="buttons">
-            <a href="cv.txt" target="_blank"><button> Download CV </button></a>
-            <a href="contact.php"><button> Contact Me </button></a>
+            <a href="cv.txt" target="_blank"><button class="btn"> Download CV </button></a>
+            <a href="contact.php"><button class="btn"> Contact Me </button></a>
           </div>
         </div>
-        <div class="dev-pic">
+        <!-- <div class="dev-pic">
           <img src="/images/devpic.jpg" alt="Arpit Maratha">
-        </div>
+        </div> -->
       </div>
     </div>
 

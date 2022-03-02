@@ -26,16 +26,24 @@ if ($results === false) {
 }
 ?>
 
+
 <?php require 'includes/header.php'; ?>
+<div class="main">
+  <div class="hamburger">
+    <img class="ham" src="/images/hamburger_icon.png" alt="" width="25">
+    <img class="cross" src="/images/cross.png" alt="" width="28">
+  </div>
+  <div class="article-container">
     <?php if($article === null): ?>
       <p>Article not found!</p>
     <?php else: ?>
 
         <article>
-          <h2><?= $article['title']; ?></h2>
+          <h1><?= $article['title']; ?></h1>
           <p><?= $article['content']; ?></p>
         </article>
 
     <?php endif; ?>
-
+  </div>
+</div>
 <?php require 'includes/footer.php'; ?>
