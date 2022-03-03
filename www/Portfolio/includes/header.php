@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Arpit Maratha - Full Stack Developer</title>
-    <link rel="stylesheet" href="/Portfolio/style.css">
 
+  
+    <link rel="stylesheet" href="/Portfolio/style.css">
 
 
 
