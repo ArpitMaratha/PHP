@@ -18,15 +18,3 @@ else {
 } , 350);
 }
 })
-
-
-//   var returnval = true;
-//   var name = document.forms['myform']["first_name"].value;
-//
-//   if(name.length < 5)
-//   seterror("name", "Length of name is too short")
-//
-//   returnval = false;
-// }
-//
-// return returnval;

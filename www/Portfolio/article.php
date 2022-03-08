@@ -43,6 +43,7 @@ if ($results === false) {
           <p><?= $article['content']; ?></p>
         </article>
 
+
     <?php endif; ?>
   </div>
 </div>

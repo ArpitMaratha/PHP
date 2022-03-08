@@ -50,7 +50,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
   <div class="contact-form">
     <h1> Contact me for work/general enquiries </h1>
 
-    <form name="myform" onsubmit="return validateform()" method="post">
+    <form name="myform" onsubmit="show_alert()" method="post">
 
       <div class="mb-3">
         <label for="firstname" class="form-label">First Name</label>
