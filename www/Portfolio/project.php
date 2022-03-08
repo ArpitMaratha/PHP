@@ -1,3 +1,3 @@
+<?php require 'includes/header.php'; ?>
 
-
-<p><b>Will adds projects soon ....</b></p>
+<h1>Will add soon ..</h1>

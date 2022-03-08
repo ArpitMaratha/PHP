@@ -36,7 +36,7 @@
             technology.
           </div>
           <div class="buttons">
-            <a href="cv.txt" target="_blank"><button class="btn"> Download CV </button></a>
+            <a href="cv.php" target="_blank"><button class="btn"> Download CV </button></a>
             <a href="contact.php"><button class="btn"> Contact Me </button></a>
           </div>
         </div>

@@ -4,7 +4,6 @@
   require 'includes/database.php';
 
 
-
 if($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
@@ -51,35 +50,35 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
   <div class="contact-form">
     <h1> Contact me for work/general enquiries </h1>
 
-    <form action="" name="myform" onsubmit="return validateform()" method="post">
+    <form name="myform" onsubmit="return validateform()" method="post">
 
       <div class="mb-3">
         <label for="firstname" class="form-label">First Name</label>
-        <input type="text" name="first_name" class="form-control" id="firstname" required>
+        <input type="text" name="first_name" placeholder="First Name" class="form-control" id="firstname" required>
         <span class="error"><b></b></span>
       </div>
 
       <div class="mb-3">
         <label for="lastname" class="form-label">Last Name</label>
-        <input type="text"  name="last_name" class="form-control" id="lastname" required>
+        <input type="text"  name="last_name" placeholder="Last Name" class="form-control" id="lastname" required>
         <span class="error"><b></b></span>
       </div>
 
       <div class="mb-3">
         <label for="clientemail" class="form-label">Email address</label>
-        <input type="email" name="email_address" class="form-control" id="clientemail" required>
+        <input type="email" name="email_address" placeholder="Email Address" class="form-control" id="clientemail" required>
         <span class="error"><b></b></span>
       </div>
 
       <div class="mb-3">
         <label for="clientphone" class="form-label">Phone Number</label>
-        <input type="number" name="phone_number" min="0" class="form-control" id="clientphone" required>
+        <input type="number" name="phone_number" placeholder="Phone Number" min="0" class="form-control" id="clientphone" required>
         <span class="error"><b></b></span>
       </div>
 
       <div class="mb-3">
         <label for="enquiry" class="form-label">Enquiry</label>
-        <input type="text" name="enquiry" class="form-control" id="enquiry" required>
+        <input type="text" name="enquiry" placeholder="Write your enquiry" class="form-control" id="enquiry" required>
         <span class="error"><b></b></span>
       </div>
 
@@ -95,6 +94,33 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     </form>
+
+    <!-- <form name="myform" action="/Portfolio/index.php" method="post">
+
+      <div class="mb-3" >
+        First Name: <input type="text" placeholder="First Name"  name="first_name" required><span class="formerror"><b></b> </span>
+      </div>
+
+      <div class="mb-3">
+        Last Name: <input type="text" placeholder="Last Name" id="lastname" name="last_name" required><span class="formerror"><b></b> </span>
+      </div>
+
+      <div class="mb-3">
+        Email: <input type="email" placeholder="Enter your email" name="email_address" required><span class="formerror"><b></b> </span>
+      </div>
+
+      <div class="mb-3">
+        Phone Number: <input type="number" placeholder="Enter your phone number" name="phone_number" required><span class="formerror"><b></b> </span>
+      </div>
+
+      <div class="mb-3">
+        Enquiry: <input type="text" placeholder="Write your enquiry" name="enquiry" required><span class="formerror"><b></b> </span>
+      </div>
+
+
+
+      <button type="submit" class="btn btn-sm">Submit</button>
+    </form> -->
   </div>
 </div>
 

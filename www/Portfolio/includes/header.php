@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <title>Arpit Maratha - Full Stack Developer</title>
 
-  
     <link rel="stylesheet" href="/Portfolio/style.css">
+    <link rel="stylesheet" href="/Portfolio/style2.css">
+
 
 
 
   </head>
   <body>
+    <!-- <div class="img-container">
+    </div> -->
   <div class="container">
     <div class="sidebar sidebarGo">
       <!-- Arpit Maratha -->

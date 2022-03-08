@@ -1,4 +1,6 @@
 
+
+
 document.querySelector('.cross').style.display = 'none';
 
 document.querySelector('.hamburger').addEventListener("click", ()=>{
@@ -17,17 +19,6 @@ else {
 }
 })
 
-function seterror(id, error) {
-  // element = document.getElementById('id')
-  // element.getElementsByClassName('formerror')[0].innerHTML = error;
-}
-
-function validateform () {
-
-    // var name = document.forms['myform']["first_name"].value;
-    // console.log(name);
-    //
-    // return false;
 
 //   var returnval = true;
 //   var name = document.forms['myform']["first_name"].value;
@@ -39,4 +30,3 @@ function validateform () {
 // }
 //
 // return returnval;
-}
