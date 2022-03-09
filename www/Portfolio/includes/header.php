@@ -18,7 +18,8 @@
     <div class="sidebar sidebarGo">
       <!-- Arpit Maratha -->
       <nav>
-        <ul>
+        <ul id="thelist">
+          <button class="btn bt-sm" onclick="addelement();">Add List Item</button>
           <li><a href="index.php">Home</a></li>
           <li><a href="intro.php">My Intro</a></li>
           <li><a href="project.php">Projects</a></li>

@@ -18,3 +18,45 @@ else {
 } , 350);
 }
 })
+
+
+
+
+//   var arr;
+//   let text;
+//   function addelement() {
+//     arr = prompt("");
+//
+//   if (arr == null || arr == "") {
+//     text.alert("User cancelled the prompt.");
+//   } else {
+//     var list= document.getElementById("thelist");
+//
+//     list.innerHTML += "<li>" + arr + "</li>";
+//   }
+//
+//   // console.log(arr);
+//
+// }
+
+function addelement() {
+
+  var arr = [];
+  for(x=0;x<1;x++) {
+    arr[x] = prompt("Enter List tag name:");
+    console.log(arr);
+  }
+  var cont = document.getElementById('thelist');
+
+
+  var ul = document.createElement('ul');
+
+  for (i = 0; i <= arr.length - 1; i++) {
+      var li = document.createElement('li');
+      li.innerHTML = arr[i];
+
+      ul.appendChild(li);
+  }
+
+  cont.appendChild(ul);
+}
