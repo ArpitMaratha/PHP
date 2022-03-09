@@ -12,13 +12,13 @@
 
 
     <div class="main">
-
       <div class="hamburger">
         <img class="ham" src="/images/hamburger_icon.png" alt="" width="25">
         <img class="cross" src="/images/cross.png" alt="" width="28">
       </div>
 
       <div class="info-container">
+
         <div class="dev-info">
           <div class="hello">
             Hello My name is

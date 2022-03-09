@@ -9,25 +9,37 @@
   padding: 0;
 }
 
+#thelist h6 {
+  font-weight: bolder;
+  margin-right: 60px;
+}
+
+
 .sidebar {
-  background-color: lightgrey;
+  background-color: white;
   font-family: 'Roboto Serif', sans-serif;
   /* width: 430px; */
   height: 100vh;
   font-weight: bold;
   transition: transform 0.3s ease-in;
   position: absolute;
+  left: 1;
 }
 
 .sidebar nav {
-  padding: 25px;
+  padding: 37px;
   font-size: 5px;
 }
 
 .sidebar nav li {
   list-style: none;
-  font-size: 30px;
+  font-size: 25px;
   padding: 30px 0;
+}
+
+.sidebar nav li a:hover {
+  background-color: white;
+  color: dodgerblue;
 }
 
 .sidebar nav li a {
@@ -54,7 +66,7 @@
   /* background-color: green; */
   height: 45vh;
   width: 80vw;
-  margin: 144px auto;
+  margin: 170px auto;
   display: flex;
   justify-content: space-around;
   padding: 25px;
@@ -124,7 +136,7 @@ font-family: 'Ubuntu', sans-serif;
   padding: 0 34px;
   padding-top: 60px;
   font-size: 20px;
-  margin-left: 180px;
+  margin-left: 100px;
   margin-bottom: 90px;
 }
 
@@ -141,10 +153,11 @@ font-family: 'Ubuntu', sans-serif;
   padding: 10px 0;
   display: flex;
   flex-direction: column;
+  font-weight: 700;
 }
 
 .contact-form form div input {
-  width: 30vw;
+  width: 50vw;
   border-radius: 5px;
   margin: 6px 0 0 0;
   padding: 3px;
@@ -165,8 +178,12 @@ font-family: 'Ubuntu', sans-serif;
   margin: 8px 0;
 }
 
+.blog-container {
+  margin-left: 100px;
+}
+
 .blog-item {
-  padding: 20px 200px 10px;
+  padding: 20px 0px 10px;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -188,15 +205,16 @@ font-family: 'Ubuntu', sans-serif;
 
 .blog-container ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
 
 }
 
 .intro-container {
-  margin-left: 200px;
-  margin-top: 100px;
+  margin-left: 150px;
   font-family: 'Ubuntu', sans-serif;
+  padding-top: 20px;
 }
+
 
 .intro-container p {
     font-size: 20px;
@@ -209,7 +227,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .skill-container li {
-  list-style: circle;
+  list-style: unset;
   font-size: 20px;
   margin: 5px;
   font-family: 'Ubuntu', sans-serif;
@@ -231,7 +249,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .pagination {
-  margin-left: 600px;
+  margin-left: 462px;
 
 }
 
@@ -260,10 +278,14 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .cross {
-  margin-left: 135px
+  margin-left: 171px
 }
 
 
+ol,
+ul {
+  padding-left: 0rem;
+}
 
 
 .footer ul {

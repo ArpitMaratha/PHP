@@ -51,12 +51,46 @@ function addelement() {
 
   var ul = document.createElement('ul');
 
+  var a = document.createElement('a');
+  var link = document.createTextNode(arr);
+
+  a.appendChild(link);
+
+  a.title = arr;
+
+  a.href = "https://www.geeksforgeeks.org";
+
   for (i = 0; i <= arr.length - 1; i++) {
       var li = document.createElement('li');
-      li.innerHTML = arr[i];
-
+      // li.innerHTML = arr[i];
+      li.appendChild(a);
       ul.appendChild(li);
   }
 
   cont.appendChild(ul);
+}
+
+function addelement1() {
+
+  var arr = [];
+  for(x=0;x<1;x++) {
+    arr[x] = prompt("Enter List tag name:");
+    console.log(arr);
+  }
+  var cont = document.getElementById('thelist1');
+
+  var ul = document.createElement('ul');
+
+  for (i = 0; i <= arr.length - 1; i++) {
+      var li = document.createElement('li');
+      li.innerHTML = arr[i];
+      ul.appendChild(li);
+  }
+
+  cont.appendChild(ul);
+}
+
+function edit() {
+var p = prompt("Enter New Details!");
+document.getElementById("p1").innerHTML = p;
 }

@@ -48,9 +48,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
   </div>
 
   <div class="contact-form">
-    <h1> Contact me for work/general enquiries </h1>
+    <h1 class="p-3 mb-2 bg-primary text-white text-center"> Contact me for work/general enquiries </h1>
 
-    <form name="myform" onsubmit="show_alert()" method="post">
+    <form name="myform" onsubmit="show_alert()" method="post" >
 
       <div class="mb-3">
         <label for="firstname" class="form-label">First Name</label>

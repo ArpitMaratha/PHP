@@ -1,6 +1,8 @@
 
 body {
-  background-image: url("/images/bimage9.jpg");
+  background-image: url('/images/bimage3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .project-container {
@@ -8,7 +10,7 @@ body {
   padding: 0 34px;
   padding-top: 20px;
   font-size: 20px;
-  margin-left: 180px;
+  margin-left: 110px;
   margin-bottom: 62px;
 }
 

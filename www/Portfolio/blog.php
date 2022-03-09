@@ -29,16 +29,16 @@ if ($results === false) {
     <?php if(empty($articles)): ?>
       <p>No articles found!</p>
     <?php else: ?>
-    <div class="blog-container">
-      <h1>Arpit Maratha Blogs</h1>
+    <div class="blog-container p-3 mb-2 bg-light text-dark">
+      <h1 class="p-3 mb-2 bg-primary text-white text-center">Arpit Maratha Blogs</h1>
     <ul>
       <?php foreach ($articles as $article): ?>
       <li>
 
         <article class="blog-item">
 
-          <h2><a href="article.php?id=<?=$article['id'] ?>"><?= $article['title']; ?></a></h2>
-          <p><?= $article['content']; ?></p>
+          <h2 class="p-3 mb-2 bg-dark text-white"><a href="article.php?id=<?=$article['id'] ?>"><?= $article['title']; ?></a></h2>
+          <p class="p-3 mb-2 bg-light text-dark"><?= $article['content']; ?></p>
         </article>
       </li>
       <?php endforeach; ?>
