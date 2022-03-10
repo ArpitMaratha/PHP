@@ -4,12 +4,12 @@
 class Employee {
   private $name = "Arpit";
   private $designation = "PAT";
-  protected $salary;
+  protected $salary = 40000;
 
 
   function show_method() {
-    echo "$this->name <br>";
-    echo "$this->designation <br>";
+    echo "The name of Employee is: $this->name <br>";
+    echo "The designation of Employee is: $this->designation <br>";
     // echo "$this->salary <br>";
   }
 
@@ -30,13 +30,12 @@ $Employee1 -> show_method();
 class Salary extends Employee
 {
 
-  function show_salary()
+  function __construct()
   {
-    echo "$this->salary <br>";
+    echo "The salar of Employee is: $this->salary <br>";
   }
 }
 $Employee2 = new Salary();
-$Employee2->show_salary();
 
 
 ?>
