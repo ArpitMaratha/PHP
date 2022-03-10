@@ -65,6 +65,10 @@ $Employee1->salary();
 
 $Employee1->designation();
 
+
+
+
+
 $Employee2 = new Programmer();
 
 $Employee2->name("Akshit Pamecha");
